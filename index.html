@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Custom Transitions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Dynamic Image Gallery</h1>
+
+        <div class="image-display-area">
+            <img id="galleryImage" src="" alt="Gallery Image">
+        </div>
+
+        <div class="controls">
+            <button id="prevBtn">Previous</button>
+            <div class="transition-selector">
+                <label for="transitionSelect">Select Transition:</label>
+                <select id="transitionSelect">
+                    <option value="fade">Fade</option>
+                    <option value="slide-left">Slide Left</option>
+                    <option value="slide-right">Slide Right</option>
+                    <option value="zoom-in">Zoom In</option>
+                    <option value="rotate-scale">Rotate & Scale</option>
+                </select>
+            </div>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
